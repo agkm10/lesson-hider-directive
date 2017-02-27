@@ -1,0 +1,33 @@
+
+.item {
+  font-family: arial;
+  font-size: 20px;
+  padding-top: 10px;
+  padding: 10ps;
+  }
+  .strike {
+    text-decoration: line-through;
+  }
+.items {
+  width: 400px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #1a081a;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #111212 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
